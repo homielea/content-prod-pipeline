@@ -92,7 +92,10 @@ Run these in order. Produce all five outputs.
 2. **MINE THE HOOK** — Scan the WHOLE transcript. The strongest hook is almost
    never the first sentence. Pull candidate hooks from the ACTUAL WORDS wherever
    possible. Only forge a new one if the raw material genuinely lacks a strong
-   line — and mark any forged hook as `[forged]`.
+   line — and mark any forged hook as `[forged]`. If the transcript actually
+   contains more than one distinct video (a lesson plus a channel intro, two
+   separate ideas), say so in a one-line MATERIAL NOTE and script the strongest
+   one — never silently discard the other.
 
 3. **GIVE 5 HOOKS** — ≤12 words each, labeled by type (Tension / Counter / Image
    / Stakes / Reframe), in the brand's voice. Kill any that hit a rubric
@@ -111,6 +114,8 @@ Run these in order. Produce all five outputs.
 
 ```
 DIAGNOSIS: <one sentence>
+
+MATERIAL NOTE: <only if the transcript holds more than one distinct video>
 
 HOOKS:
 1. [Type] "<hook>"  — <mined verbatim | tightened from transcript | forged>
