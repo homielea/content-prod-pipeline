@@ -7,7 +7,10 @@ aspect_ratio: "9:16"
 duration_seconds_max: 60
 target_hook_seconds: 1.5
 episodes_per_batch: 5
-animation_style: "limited-motion illustrated / motion-comic"   # [DECISION NEEDED — see Locked format]
+animation_style: "full character animation, avatar-based"   # decided 2026-07-08 — see Locked format
+tooling_candidates: "HeyGen (subscription + API), ElevenLabs, vidIQ voiceover"
+narration: "third-person narrator + minimal dialogue"
+voices: "TBD — decide after episode-1 prototype"
 tone: "warm satire, never cruel"
 language_primary: "en"          # subtitle/localize to gl/es as needed
 publish_gate: "human_required"  # automation stops before publish
@@ -93,14 +96,23 @@ external thesis into episodes.
 - **Structure per Short:** Hook (0–1.5s) → Escalation (mid) → Punchline/button
   (end). One idea per Short.
 - **No spoken sign-off** — every episode ends on the punchline/button.
-- **Animation style — [DECISION NEEDED]:** Recommended default is
-  **limited-motion illustrated / motion-comic** (illustrated characters,
-  subtle animation, strong narration + dialogue, expressive stills over full
-  frame-by-frame). Rationale: it's the only style that reliably holds a
-  *consistent recurring ensemble across a whole season* with today's tools,
-  it's far cheaper to automate, and it fits a warm-satire voice. Full
-  character animation is the alternative but breaks consistency and cost.
-  **Lea to confirm before pipeline build.**
+- **Animation style — DECIDED (2026-07-08): full character animation,
+  avatar-based.** Each of the six recurring characters gets a fixed avatar
+  (HeyGen subscription + API available), which is what makes full animation
+  viable despite the consistency risk that made motion-comic the original
+  recommendation: the avatar IS the consistency mechanism. The "never break
+  ensemble visual consistency" rule now means: one locked avatar per
+  character, reused every episode, no regeneration.
+- **Visual identity — A/B at prototype:** two candidate looks, to be locked
+  after the episode-1 prototype: (a) warm European comic styling applied to
+  the avatars, or (b) the avatars' native/realistic look. Whichever ships in
+  episode 1 becomes the locked look for the season.
+- **Narration — DECIDED:** a wry third-person narrator carries each episode;
+  characters get one or two dialogue lines at most.
+- **Voices — OPEN:** decide after hearing the episode-1 prototype with
+  placeholder voices. Candidates: HeyGen built-in voices, ElevenLabs, vidIQ
+  voiceover clone. Firewall note: if the creator's own cloned voice is ever
+  used, it stays unnamed in-world.
 
 ## Cutdown rules
 
