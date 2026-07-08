@@ -12,6 +12,10 @@ they operate on.
   brand + format → landing-pass hook → master script → platform cutdowns →
   vidIQ-scored titles + thumbnail concepts. The brand-file contract lives at
   `content-engine/references/brand-template.md`.
+- **`story-catcher/`** — the fictionalizing intake Skill. Raw lived anecdote →
+  firewall pass (real people → composite archetypes, identifying details
+  blurred) → episode-ready entries in the brand's locked entry format, banked
+  in `production/story-bank/<brand>.md`.
 - **`references/brands/`** — one file per brand; the ONLY place channel-specific
   voice, format, thesis, or sign-off lives. Current: `leas-lessons.md`,
   `cabo-corvo.md`.
